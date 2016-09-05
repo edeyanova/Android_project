@@ -172,7 +172,7 @@ public class MainActivity extends Activity {
 	    new Thread(new Runnable() {
 	        @Override
 	        public void run() {
-	        int timeToBlink = 1000;    //in milissegunds
+	        int timeToBlink = 1000;
 	        try{Thread.sleep(timeToBlink);}catch (Exception e) {}
 	            handler.post(new Runnable() {
 	                @Override
